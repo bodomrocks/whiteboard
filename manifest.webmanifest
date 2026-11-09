@@ -1,0 +1,22 @@
+{
+  "id": "./",
+  "name": "Whiteboard",
+  "short_name": "Whiteboard",
+  "description": "Digitales Whiteboard für den Unterricht",
+  "lang": "de-CH",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay"],
+  "background_color": "#f8f9fb",
+  "theme_color": "#e4e8ee",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "file_handlers": [
+    { "action": "./", "accept": { "text/plain": [".txt", ".text"], "text/markdown": [".md"] } }
+  ],
+  "launch_handler": { "client_mode": "focus-existing" }
+}
