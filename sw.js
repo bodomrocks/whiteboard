@@ -1,6 +1,6 @@
 // Offline-Speicher: Die App läuft nach dem ersten Laden auch ohne Internet.
 // Neue Versionen werden im Hintergrund geladen und beim nächsten Start aktiv.
-const CACHE = "whiteboard-8becb9431d";
+const CACHE = "whiteboard-bd0017fbf8";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png"];
 
 self.addEventListener("install", (e) => {
